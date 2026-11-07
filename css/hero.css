@@ -1,0 +1,95 @@
+#hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding-top: calc(70px + var(--spacing-xl));
+    min-height: 70vh;
+}
+
+/* Canvas global posicionado detrás de todo */
+#bg-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+}
+
+#hero h1 {
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--text-main);
+    letter-spacing: -0.02em;
+}
+
+#hero p {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    max-width: 550px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-sm);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #0b0f19;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s ease;
+    display: inline-block;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus-visible {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+    outline: none;
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.03);
+    color: var(--text-main);
+    border: 1px solid var(--card-border);
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s ease, background-color 0.2s ease;
+    display: inline-block;
+}
+
+.btn-secondary:hover, 
+.btn-secondary:focus-visible {
+    border-color: rgba(52, 211, 153, 0.4);
+    background-color: rgba(52, 211, 153, 0.05);
+    transform: translateY(-2px);
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    #hero h1 {
+        font-size: 3.75rem;
+    }
+}

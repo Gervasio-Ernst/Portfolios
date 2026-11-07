@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #34d399;      /* Verde esmeralda vibrante */
+    --primary-hover: #059669;      
+    --bg-color: #0b0f19;           /* Fondo negro/azulado muy profundo y moderno */
+    --card-bg: rgba(30, 41, 59, 0.4); /* Fondo translúcido estilo glass */
+    --card-border: rgba(255, 255, 255, 0.08); /* Borde de cristal ultra fino */
+    --text-main: #f8fafc;          /* Blanco suave */
+    --text-muted: #94a3b8;         /* Gris secundario elegante */
+    
+    --font-main: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+    
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 48px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* Sutil textura de fondo radial simulando iluminación de UI de Apple */
+    background-image: radial-gradient(circle at 50% 0%, rgba(52, 211, 153, 0.04) 0%, transparent 50%);
+    background-attachment: fixed;
+}
+
+section {
+    scroll-margin-top: 85px;
+    padding: var(--spacing-xl) var(--spacing-md);
+    max-width: 1200px;
+    margin: 0 auto;
+}
