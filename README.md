@@ -23,6 +23,18 @@ El desarrollo del portfolio se llevó a cabo de manera incremental mediante cont
 
 ---
 
+## 📊 Auditoría de Rendimiento (Lighthouse)
+
+El sitio web ha sido optimizado para garantizar una experiencia de usuario fluida, accesible y de alta performance tanto en computadoras como en dispositivos móviles.
+
+### 💻 Versión Desktop
+![Puntuación Desktop](./assets/img/puntuacion-desktop.png)
+
+### 📱 Versión Móvil
+![Puntuación Móvil](./assets/img/puntuacion-mobil.png)
+
+---
+
 ## 💻 Stack Tecnológico
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla).
 * **Diseño & UX:** Figma
