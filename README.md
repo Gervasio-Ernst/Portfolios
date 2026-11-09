@@ -35,6 +35,11 @@ El sitio web ha sido optimizado para garantizar una experiencia de usuario fluid
 
 ---
 
+## 🎨 Sistema de Diseño (Figma)
+![Sistema de Diseño](./assets/img/figma-sistema.png)
+
+---
+
 ## 💻 Stack Tecnológico
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla).
 * **Diseño & UX:** Figma

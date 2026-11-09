@@ -1,11 +1,12 @@
+/* variables.css sincronizado con el Design System de Figma */
 :root {
-    --primary-color: #34d399;      /* Verde esmeralda vibrante */
-    --primary-hover: #059669;      
-    --bg-color: #0b0f19;           /* Fondo negro/azulado muy profundo y moderno */
-    --card-bg: rgba(30, 41, 59, 0.4); /* Fondo translúcido estilo glass */
-    --card-border: rgba(255, 255, 255, 0.08); /* Borde de cristal ultra fino */
-    --text-main: #f8fafc;          /* Blanco suave */
-    --text-muted: #94a3b8;         /* Gris secundario elegante */
+    --primary-color: #2CCC64;      /* Verde musgo oficial del kit de Figma */
+    --primary-hover: #24b055;      
+    --bg-color: #0D1012;           /* Color de Canvas exacto de Figma */
+    --card-bg: #202531;            /* Color de Superficie/Tarjetas exacto de Figma */
+    --card-border: #3F453A;        /* Color de Borde exacto de Figma */
+    --text-main: #E9F0E8;          /* Texto principal exacto de Figma */
+    --text-muted: #94a3b8;         /* Texto secundario */
     
     --font-main: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
     
@@ -33,8 +34,6 @@ body {
     color: var(--text-main);
     line-height: 1.6;
     overflow-x: hidden;
-    /* Sutil textura de fondo radial simulando iluminación de UI de Apple */
-    background-image: radial-gradient(circle at 50% 0%, rgba(52, 211, 153, 0.04) 0%, transparent 50%);
     background-attachment: fixed;
 }
 
